@@ -13,4 +13,14 @@ public class Main {
         base = sc.nextInt();
         exponente = sc.nextInt();
     }
+    public static int cuadrado(int exponente, int base) {
+        int contador;
+        int resultado = 1;
+
+        for (contador = 0; contador < exponente; contador++) {
+            resultado = resultado * base;
+        }
+
+        return resultado;
+    }
 }
