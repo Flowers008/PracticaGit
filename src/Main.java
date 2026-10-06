@@ -12,6 +12,11 @@ public class Main {
 
         base = sc.nextInt();
         exponente = sc.nextInt();
+
+        int resultado = cuadrado(exponente, base);
+
+        System.out.println("El resultado es de " + resultado);
+        sc.close();
     }
     public static int cuadrado(int exponente, int base) {
         int contador;
